@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE1757E293DDF9F0056F81A /* networthappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1757D293DDF9F0056F81A /* networthappApp.swift */; };
+		FAE17580293DDF9F0056F81A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1757F293DDF9F0056F81A /* ContentView.swift */; };
+		FAE17582293DDFA10056F81A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE17581293DDFA10056F81A /* Assets.xcassets */; };
+		FAE17586293DDFA10056F81A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE17585293DDFA10056F81A /* Preview Assets.xcassets */; };
+		FAE17590293DDFA10056F81A /* networthappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1758F293DDFA10056F81A /* networthappTests.swift */; };
+		FAE1759A293DDFA10056F81A /* networthappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE17599293DDFA10056F81A /* networthappUITests.swift */; };
+		FAE1759C293DDFA10056F81A /* networthappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1759B293DDFA10056F81A /* networthappUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE1758C293DDFA10056F81A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE17572293DDF9E0056F81A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE17579293DDF9E0056F81A;
+			remoteInfo = networthapp;
+		};
+		FAE17596293DDFA10056F81A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE17572293DDF9E0056F81A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE17579293DDF9E0056F81A;
+			remoteInfo = networthapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAE1757A293DDF9F0056F81A /* networthapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = networthapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE1757D293DDF9F0056F81A /* networthappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networthappApp.swift; sourceTree = "<group>"; };
+		FAE1757F293DDF9F0056F81A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAE17581293DDFA10056F81A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE17583293DDFA10056F81A /* networthapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = networthapp.entitlements; sourceTree = "<group>"; };
+		FAE17585293DDFA10056F81A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAE1758B293DDFA10056F81A /* networthappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = networthappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE1758F293DDFA10056F81A /* networthappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networthappTests.swift; sourceTree = "<group>"; };
+		FAE17595293DDFA10056F81A /* networthappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = networthappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE17599293DDFA10056F81A /* networthappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networthappUITests.swift; sourceTree = "<group>"; };
+		FAE1759B293DDFA10056F81A /* networthappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networthappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE17577293DDF9E0056F81A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE17588293DDFA10056F81A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE17592293DDFA10056F81A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE17571293DDF9E0056F81A = {
+			isa = PBXGroup;
+			children = (
+				FAE1757C293DDF9F0056F81A /* networthapp */,
+				FAE1758E293DDFA10056F81A /* networthappTests */,
+				FAE17598293DDFA10056F81A /* networthappUITests */,
+				FAE1757B293DDF9F0056F81A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE1757B293DDF9F0056F81A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE1757A293DDF9F0056F81A /* networthapp.app */,
+				FAE1758B293DDFA10056F81A /* networthappTests.xctest */,
+				FAE17595293DDFA10056F81A /* networthappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE1757C293DDF9F0056F81A /* networthapp */ = {
+			isa = PBXGroup;
+			children = (
+				FAE1757D293DDF9F0056F81A /* networthappApp.swift */,
+				FAE1757F293DDF9F0056F81A /* ContentView.swift */,
+				FAE17581293DDFA10056F81A /* Assets.xcassets */,
+				FAE17583293DDFA10056F81A /* networthapp.entitlements */,
+				FAE17584293DDFA10056F81A /* Preview Content */,
+			);
+			path = networthapp;
+			sourceTree = "<group>";
+		};
+		FAE17584293DDFA10056F81A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAE17585293DDFA10056F81A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAE1758E293DDFA10056F81A /* networthappTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE1758F293DDFA10056F81A /* networthappTests.swift */,
+			);
+			path = networthappTests;
+			sourceTree = "<group>";
+		};
+		FAE17598293DDFA10056F81A /* networthappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE17599293DDFA10056F81A /* networthappUITests.swift */,
+				FAE1759B293DDFA10056F81A /* networthappUITestsLaunchTests.swift */,
+			);
+			path = networthappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE17579293DDF9E0056F81A /* networthapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE1759F293DDFA10056F81A /* Build configuration list for PBXNativeTarget "networthapp" */;
+			buildPhases = (
+				FAE17576293DDF9E0056F81A /* Sources */,
+				FAE17577293DDF9E0056F81A /* Frameworks */,
+				FAE17578293DDF9E0056F81A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = networthapp;
+			productName = networthapp;
+			productReference = FAE1757A293DDF9F0056F81A /* networthapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAE1758A293DDFA10056F81A /* networthappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE175A2293DDFA10056F81A /* Build configuration list for PBXNativeTarget "networthappTests" */;
+			buildPhases = (
+				FAE17587293DDFA10056F81A /* Sources */,
+				FAE17588293DDFA10056F81A /* Frameworks */,
+				FAE17589293DDFA10056F81A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE1758D293DDFA10056F81A /* PBXTargetDependency */,
+			);
+			name = networthappTests;
+			productName = networthappTests;
+			productReference = FAE1758B293DDFA10056F81A /* networthappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAE17594293DDFA10056F81A /* networthappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE175A5293DDFA10056F81A /* Build configuration list for PBXNativeTarget "networthappUITests" */;
+			buildPhases = (
+				FAE17591293DDFA10056F81A /* Sources */,
+				FAE17592293DDFA10056F81A /* Frameworks */,
+				FAE17593293DDFA10056F81A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE17597293DDFA10056F81A /* PBXTargetDependency */,
+			);
+			name = networthappUITests;
+			productName = networthappUITests;
+			productReference = FAE17595293DDFA10056F81A /* networthappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE17572293DDF9E0056F81A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FAE17579293DDF9E0056F81A = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					FAE1758A293DDFA10056F81A = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FAE17579293DDF9E0056F81A;
+					};
+					FAE17594293DDFA10056F81A = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FAE17579293DDF9E0056F81A;
+					};
+				};
+			};
+			buildConfigurationList = FAE17575293DDF9E0056F81A /* Build configuration list for PBXProject "networthapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE17571293DDF9E0056F81A;
+			productRefGroup = FAE1757B293DDF9F0056F81A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE17579293DDF9E0056F81A /* networthapp */,
+				FAE1758A293DDFA10056F81A /* networthappTests */,
+				FAE17594293DDFA10056F81A /* networthappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE17578293DDF9E0056F81A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE17586293DDFA10056F81A /* Preview Assets.xcassets in Resources */,
+				FAE17582293DDFA10056F81A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE17589293DDFA10056F81A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE17593293DDFA10056F81A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE17576293DDF9E0056F81A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE17580293DDF9F0056F81A /* ContentView.swift in Sources */,
+				FAE1757E293DDF9F0056F81A /* networthappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE17587293DDFA10056F81A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE17590293DDFA10056F81A /* networthappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE17591293DDFA10056F81A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE1759A293DDFA10056F81A /* networthappUITests.swift in Sources */,
+				FAE1759C293DDFA10056F81A /* networthappUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAE1758D293DDFA10056F81A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE17579293DDF9E0056F81A /* networthapp */;
+			targetProxy = FAE1758C293DDFA10056F81A /* PBXContainerItemProxy */;
+		};
+		FAE17597293DDFA10056F81A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE17579293DDF9E0056F81A /* networthapp */;
+			targetProxy = FAE17596293DDFA10056F81A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FAE1759D293DDFA10056F81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAE1759E293DDFA10056F81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FAE175A0293DDFA10056F81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = networthapp/networthapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"networthapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5R5GX45HD8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.pitr.networthapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE175A1293DDFA10056F81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = networthapp/networthapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"networthapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5R5GX45HD8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.pitr.networthapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAE175A3293DDFA10056F81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5R5GX45HD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.pitr.networthappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/networthapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/networthapp";
+			};
+			name = Debug;
+		};
+		FAE175A4293DDFA10056F81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5R5GX45HD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.pitr.networthappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/networthapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/networthapp";
+			};
+			name = Release;
+		};
+		FAE175A6293DDFA10056F81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5R5GX45HD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.pitr.networthappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = networthapp;
+			};
+			name = Debug;
+		};
+		FAE175A7293DDFA10056F81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5R5GX45HD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.pitr.networthappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = networthapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE17575293DDF9E0056F81A /* Build configuration list for PBXProject "networthapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE1759D293DDFA10056F81A /* Debug */,
+				FAE1759E293DDFA10056F81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE1759F293DDFA10056F81A /* Build configuration list for PBXNativeTarget "networthapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE175A0293DDFA10056F81A /* Debug */,
+				FAE175A1293DDFA10056F81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE175A2293DDFA10056F81A /* Build configuration list for PBXNativeTarget "networthappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE175A3293DDFA10056F81A /* Debug */,
+				FAE175A4293DDFA10056F81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE175A5293DDFA10056F81A /* Build configuration list for PBXNativeTarget "networthappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE175A6293DDFA10056F81A /* Debug */,
+				FAE175A7293DDFA10056F81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE17572293DDF9E0056F81A /* Project object */;
+}
