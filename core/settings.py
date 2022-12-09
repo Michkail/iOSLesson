@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'core.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'djongo',
+        'NAME': 'netWorth',
+        'ENFORCE_SCHEMA': False,
+        'CLIENT': {
+            'host': 'mongodb://jkfp:221997@ac-j5jnoqs-shard-00-00.2agoisx.mongodb.net:27017,ac-j5jnoqs-shard-00-01.2agoisx.mongodb.net:27017,ac-j5jnoqs-shard-00-02.2agoisx.mongodb.net:27017/?ssl=true&replicaSet=atlas-jz9ciu-shard-0&authSource=admin&retryWrites=true&w=majority'
+        }
     }
 }
 
