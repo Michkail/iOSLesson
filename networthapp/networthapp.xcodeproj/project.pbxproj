@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA82CD5529439C2500B63692 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82CD5429439C2500B63692 /* Account.swift */; };
+		FA82CD592943A65100B63692 /* AccountDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82CD582943A65100B63692 /* AccountDetailView.swift */; };
+		FA82CD5B2943C8B500B63692 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82CD5A2943C8B500B63692 /* EditView.swift */; };
 		FA960229293DE73200295EA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1757F293DDF9F0056F81A /* ContentView.swift */; };
 		FAE1757E293DDF9F0056F81A /* networthappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1757D293DDF9F0056F81A /* networthappApp.swift */; };
 		FAE17580293DDF9F0056F81A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1757F293DDF9F0056F81A /* ContentView.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA82CD5429439C2500B63692 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		FA82CD582943A65100B63692 /* AccountDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailView.swift; sourceTree = "<group>"; };
+		FA82CD5A2943C8B500B63692 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		FAE1757A293DDF9F0056F81A /* networthapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = networthapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE1757D293DDF9F0056F81A /* networthappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networthappApp.swift; sourceTree = "<group>"; };
 		FAE1757F293DDF9F0056F81A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +107,9 @@
 				FAE17581293DDFA10056F81A /* Assets.xcassets */,
 				FAE17583293DDFA10056F81A /* networthapp.entitlements */,
 				FAE17584293DDFA10056F81A /* Preview Content */,
+				FA82CD5429439C2500B63692 /* Account.swift */,
+				FA82CD582943A65100B63692 /* AccountDetailView.swift */,
+				FA82CD5A2943C8B500B63692 /* EditView.swift */,
 			);
 			path = networthapp;
 			sourceTree = "<group>";
@@ -261,7 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE17580293DDF9F0056F81A /* ContentView.swift in Sources */,
+				FA82CD5B2943C8B500B63692 /* EditView.swift in Sources */,
+				FA82CD592943A65100B63692 /* AccountDetailView.swift in Sources */,
 				FAE1757E293DDF9F0056F81A /* networthappApp.swift in Sources */,
+				FA82CD5529439C2500B63692 /* Account.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
